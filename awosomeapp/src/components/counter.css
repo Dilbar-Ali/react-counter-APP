@@ -1,0 +1,28 @@
+body{
+    background-color: rebeccapurple;
+    width: 100vw;
+    height: 100vh;
+}
+.Heading{
+    text-align: center;
+}
+
+.Card{
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin:  auto auto auto auto; */
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    border-radius: 10px;
+}
+.card .btn{
+    padding: 10px 20px;
+    background-color: gold;
+}
